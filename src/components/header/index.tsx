@@ -2,7 +2,7 @@ import { signOut } from "firebase/auth";
 import { BiLogOut } from "react-icons/bi";
 import { Link } from "react-router-dom";
 
-import { auth, db } from "../../services/FirebaseConnection";
+import { auth } from "../../services/FirebaseConnection";
 
 async function handleLogout() {
     await signOut(auth);

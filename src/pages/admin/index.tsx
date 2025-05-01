@@ -1,4 +1,4 @@
-import { ButtonHTMLAttributes, FormEvent, useEffect, useState } from "react";
+import { FormEvent, useEffect, useState } from "react";
 import { Header } from "../../components/header";
 import { Input } from "../../components/input";
 import { FiTrash } from "react-icons/fi";

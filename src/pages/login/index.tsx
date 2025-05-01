@@ -1,7 +1,7 @@
 import { Link, useNavigate } from "react-router-dom";
 import { Input } from "../../components/input";
 import { FormEvent, useState } from "react";
-import { auth, db } from "../../services/FirebaseConnection";
+import { auth } from "../../services/FirebaseConnection";
 import { signInWithEmailAndPassword } from "firebase/auth";
 
 export function Login() {

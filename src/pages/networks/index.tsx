@@ -2,7 +2,7 @@ import { Header } from "../../components/header";
 import { Input } from "../../components/input";
 import { FormEvent, useEffect, useState } from "react";
 import { db } from "../../services/FirebaseConnection";
-import { addDoc, setDoc, getDoc, doc } from "firebase/firestore";
+import { setDoc, getDoc, doc } from "firebase/firestore";
 
 export function Networks() {
   const [facebook, setFacebook] = useState("");
